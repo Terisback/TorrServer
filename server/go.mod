@@ -1,4 +1,4 @@
-module server
+module github.com/Terisback/TorrServer/server
 
 go 1.20
 
