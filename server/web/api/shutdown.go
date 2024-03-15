@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	sets "server/settings"
-	"server/torr"
+	sets "github.com/Terisback/TorrServer/server/settings"
+	"github.com/Terisback/TorrServer/server/torr"
 
 	"github.com/gin-gonic/gin"
 )

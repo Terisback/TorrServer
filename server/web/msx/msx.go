@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"sync"
 
-	"server/version"
-	"server/web/auth"
+	"github.com/Terisback/TorrServer/server/version"
+	"github.com/Terisback/TorrServer/server/web/auth"
 
 	"github.com/gin-gonic/gin"
 )

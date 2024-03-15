@@ -5,24 +5,24 @@ import (
 	"os"
 	"sort"
 
-	"server/rutor"
+	"github.com/Terisback/TorrServer/server/rutor"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-contrib/location"
 	"github.com/gin-gonic/gin"
 
-	"server/dlna"
-	"server/settings"
-	"server/web/msx"
+	"github.com/Terisback/TorrServer/server/dlna"
+	"github.com/Terisback/TorrServer/server/settings"
+	"github.com/Terisback/TorrServer/server/web/msx"
 
-	"server/log"
-	"server/torr"
-	"server/version"
-	"server/web/api"
-	"server/web/auth"
-	"server/web/blocker"
-	"server/web/pages"
-	"server/web/sslcerts"
+	"github.com/Terisback/TorrServer/server/log"
+	"github.com/Terisback/TorrServer/server/torr"
+	"github.com/Terisback/TorrServer/server/version"
+	"github.com/Terisback/TorrServer/server/web/api"
+	"github.com/Terisback/TorrServer/server/web/auth"
+	"github.com/Terisback/TorrServer/server/web/blocker"
+	"github.com/Terisback/TorrServer/server/web/pages"
+	"github.com/Terisback/TorrServer/server/web/sslcerts"
 
 	swaggerFiles "github.com/swaggo/files"     // swagger embed files
 	ginSwagger "github.com/swaggo/gin-swagger" // gin-swagger middleware
@@ -132,7 +132,7 @@ func Stop() {
 //	@Tags			API
 //
 //	@Produce		plain
-//	@Success		200	{string}	string	"Server version"
+//	@Success		200	{string}	string	"github.com/Terisback/TorrServer/server version"
 //	@Router			/echo [get]
 func echo(c *gin.Context) {
 	c.String(200, "%v", version.Version)

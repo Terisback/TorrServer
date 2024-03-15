@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"server/log"
-	"server/settings"
+	"github.com/Terisback/TorrServer/server/log"
+	"github.com/Terisback/TorrServer/server/settings"
 )
 
 type DiskPiece struct {

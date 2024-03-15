@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"reflect"
 
-	"server/log"
-	"server/web/api/utils"
+	"github.com/Terisback/TorrServer/server/log"
+	"github.com/Terisback/TorrServer/server/web/api/utils"
 
 	bolt "go.etcd.io/bbolt"
 )

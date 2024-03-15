@@ -1,7 +1,7 @@
 package state
 
 import (
-	"server/torr/state"
+	"github.com/Terisback/TorrServer/server/torr/state"
 )
 
 type CacheState struct {

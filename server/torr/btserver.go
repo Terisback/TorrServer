@@ -11,10 +11,10 @@ import (
 	"github.com/anacrolix/torrent"
 	"github.com/anacrolix/torrent/metainfo"
 
-	"server/settings"
-	"server/torr/storage/torrstor"
-	"server/torr/utils"
-	"server/version"
+	"github.com/Terisback/TorrServer/server/settings"
+	"github.com/Terisback/TorrServer/server/torr/storage/torrstor"
+	"github.com/Terisback/TorrServer/server/torr/utils"
+	"github.com/Terisback/TorrServer/server/version"
 )
 
 type BTServer struct {

@@ -3,7 +3,7 @@ package torrstor
 import (
 	"github.com/anacrolix/torrent"
 	"github.com/anacrolix/torrent/storage"
-	"server/settings"
+	"github.com/Terisback/TorrServer/server/settings"
 )
 
 type Piece struct {

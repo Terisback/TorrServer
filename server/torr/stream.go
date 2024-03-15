@@ -13,9 +13,9 @@ import (
 	"github.com/anacrolix/missinggo/v2/httptoo"
 	"github.com/anacrolix/torrent"
 
-	mt "server/mimetype"
-	sets "server/settings"
-	"server/torr/state"
+	mt "github.com/Terisback/TorrServer/server/mimetype"
+	sets "github.com/Terisback/TorrServer/server/settings"
+	"github.com/Terisback/TorrServer/server/torr/state"
 )
 
 func (t *Torrent) Stream(fileID int, req *http.Request, resp http.ResponseWriter) error {

@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"server/log"
+	"github.com/Terisback/TorrServer/server/log"
 )
 
 var (

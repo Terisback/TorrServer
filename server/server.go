@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"server/log"
-	"server/settings"
-	"server/web"
+	"github.com/Terisback/TorrServer/server/log"
+	"github.com/Terisback/TorrServer/server/settings"
+	"github.com/Terisback/TorrServer/server/web"
 )
 
 func Start(port, sslport, sslCert, sslKey string, sslEnabled, roSets, searchWA bool) {

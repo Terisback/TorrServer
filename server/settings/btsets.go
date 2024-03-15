@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"server/log"
+	"github.com/Terisback/TorrServer/server/log"
 )
 
 type BTSets struct {

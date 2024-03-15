@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"server/log"
+	"github.com/Terisback/TorrServer/server/log"
 
 	bolt "go.etcd.io/bbolt"
 )

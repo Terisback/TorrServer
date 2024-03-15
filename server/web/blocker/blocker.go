@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"server/log"
-	"server/settings"
+	"github.com/Terisback/TorrServer/server/log"
+	"github.com/Terisback/TorrServer/server/settings"
 
 	"github.com/gin-gonic/gin"
 )

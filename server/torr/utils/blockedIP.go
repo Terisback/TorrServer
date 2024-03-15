@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"server/settings"
+	"github.com/Terisback/TorrServer/server/settings"
 
 	"github.com/anacrolix/torrent/iplist"
 )

@@ -17,12 +17,12 @@ import (
 	"github.com/alexflint/go-arg"
 	"github.com/pkg/browser"
 
-	"server"
-	"server/docs"
-	"server/log"
-	"server/settings"
-	"server/torr"
-	"server/version"
+	"github.com/Terisback/TorrServer/server"
+	"github.com/Terisback/TorrServer/server/docs"
+	"github.com/Terisback/TorrServer/server/log"
+	"github.com/Terisback/TorrServer/server/settings"
+	"github.com/Terisback/TorrServer/server/torr"
+	"github.com/Terisback/TorrServer/server/version"
 )
 
 type args struct {
@@ -32,7 +32,7 @@ type args struct {
 	SslCert     string `help:"path to ssl cert file. If not set, will be taken from db(if stored previously) or default self-signed certificate/key will be generated. Accepted if --ssl enabled."`
 	SslKey      string `help:"path to ssl key file. If not set, will be taken from db(if stored previously) or default self-signed certificate/key will be generated. Accepted if --ssl enabled."`
 	Path        string `arg:"-d" help:"database and config dir path"`
-	LogPath     string `arg:"-l" help:"server log file path"`
+	LogPath     string `arg:"-l" help:"github.com/Terisback/TorrServer/server log file path"`
 	WebLogPath  string `arg:"-w" help:"web access log file path"`
 	RDB         bool   `arg:"-r" help:"start in read-only DB mode"`
 	HttpAuth    bool   `arg:"-a" help:"enable http auth on all requests"`

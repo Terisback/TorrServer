@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"server/log"
+	"github.com/Terisback/TorrServer/server/log"
 
 	"golang.org/x/exp/slices"
 )

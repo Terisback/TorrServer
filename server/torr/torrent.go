@@ -6,17 +6,17 @@ import (
 	"sync"
 	"time"
 
-	utils2 "server/utils"
+	utils2 "github.com/Terisback/TorrServer/server/utils"
 
 	"github.com/anacrolix/torrent"
 	"github.com/anacrolix/torrent/metainfo"
 
-	"server/log"
-	"server/settings"
-	"server/torr/state"
-	cacheSt "server/torr/storage/state"
-	"server/torr/storage/torrstor"
-	"server/torr/utils"
+	"github.com/Terisback/TorrServer/server/log"
+	"github.com/Terisback/TorrServer/server/settings"
+	"github.com/Terisback/TorrServer/server/torr/state"
+	cacheSt "github.com/Terisback/TorrServer/server/torr/storage/state"
+	"github.com/Terisback/TorrServer/server/torr/storage/torrstor"
+	"github.com/Terisback/TorrServer/server/torr/utils"
 )
 
 type Torrent struct {

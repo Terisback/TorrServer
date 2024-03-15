@@ -3,7 +3,7 @@ package settings
 import (
 	"encoding/json"
 
-	"server/log"
+	"github.com/Terisback/TorrServer/server/log"
 )
 
 type Viewed struct {

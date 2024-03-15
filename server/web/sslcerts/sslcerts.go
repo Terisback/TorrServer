@@ -15,8 +15,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"server/log"
-	"server/settings"
+	"github.com/Terisback/TorrServer/server/log"
+	"github.com/Terisback/TorrServer/server/settings"
 )
 
 func generateSelfSignedCert(ips []string) ([]byte, []byte, error) {
@@ -77,14 +77,14 @@ func MakeCertKeyFiles(ips []string) (string, string) {
 		log.TLogln("Error generating certificate:", err)
 		os.Exit(1)
 	}
-	certFile, err := os.Create(filepath.Join(settings.Path, "server.pem"))
+	certFile, err := os.Create(filepath.Join(settings.Path, "github.com/Terisback/TorrServer/server.pem"))
 	if err != nil {
 		log.TLogln("Error creating certificate file:", err)
 		os.Exit(1)
 	}
 	defer certFile.Close()
 
-	privFile, err := os.Create(filepath.Join(settings.Path, "server.key"))
+	privFile, err := os.Create(filepath.Join(settings.Path, "github.com/Terisback/TorrServer/server.key"))
 	if err != nil {
 		log.TLogln("Error creating private key file:", err)
 		os.Exit(1)

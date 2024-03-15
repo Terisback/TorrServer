@@ -3,9 +3,9 @@ package api
 import (
 	"net/http"
 
-	"server/log"
-	"server/torr"
-	"server/web/api/utils"
+	"github.com/Terisback/TorrServer/server/log"
+	"github.com/Terisback/TorrServer/server/torr"
+	"github.com/Terisback/TorrServer/server/web/api/utils"
 
 	"github.com/gin-gonic/gin"
 )

@@ -90,7 +90,7 @@ const docTemplate = `{
                 "summary": "Tests server status",
                 "responses": {
                     "200": {
-                        "description": "Server version",
+                        "description": "github.com/Terisback/TorrServer/server version",
                         "schema": {
                             "type": "string"
                         }

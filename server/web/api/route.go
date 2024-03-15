@@ -1,8 +1,8 @@
 package api
 
 import (
-	config "server/settings"
-	"server/web/auth"
+	config "github.com/Terisback/TorrServer/server/settings"
+	"github.com/Terisback/TorrServer/server/web/auth"
 
 	"github.com/gin-gonic/gin"
 )

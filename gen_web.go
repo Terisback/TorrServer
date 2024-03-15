@@ -26,7 +26,7 @@ func main() {
 	}
 
 	compileHtml := "web/build/"
-	srcGo := "server/web/pages/"
+	srcGo := "github.com/Terisback/TorrServer/server/web/pages/"
 
 	run("rm", "-rf", srcGo+"template/pages")
 	run("cp", "-r", compileHtml, srcGo+"template/pages")

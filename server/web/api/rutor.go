@@ -6,9 +6,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"server/rutor"
-	"server/rutor/models"
-	sets "server/settings"
+	"github.com/Terisback/TorrServer/server/rutor"
+	"github.com/Terisback/TorrServer/server/rutor/models"
+	sets "github.com/Terisback/TorrServer/server/settings"
 )
 
 // rutorSearch godoc

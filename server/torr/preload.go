@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
-	"server/ffprobe"
+	"github.com/Terisback/TorrServer/server/ffprobe"
 
 	"github.com/anacrolix/torrent"
 
-	"server/log"
-	"server/settings"
-	"server/torr/state"
-	utils2 "server/utils"
+	"github.com/Terisback/TorrServer/server/log"
+	"github.com/Terisback/TorrServer/server/settings"
+	"github.com/Terisback/TorrServer/server/torr/state"
+	utils2 "github.com/Terisback/TorrServer/server/utils"
 )
 
 func (t *Torrent) Preload(index int, size int64) {

@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"server/settings"
+	"github.com/Terisback/TorrServer/server/settings"
 
 	"golang.org/x/time/rate"
 )

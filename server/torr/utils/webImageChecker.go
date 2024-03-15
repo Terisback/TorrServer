@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/image/webp"
 
-	"server/log"
+	"github.com/Terisback/TorrServer/server/log"
 )
 
 func CheckImgUrl(link string) bool {

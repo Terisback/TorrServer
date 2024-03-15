@@ -4,12 +4,12 @@ import (
 	"net/http"
 	"strings"
 
-	"server/dlna"
-	"server/log"
-	set "server/settings"
-	"server/torr"
-	"server/torr/state"
-	"server/web/api/utils"
+	"github.com/Terisback/TorrServer/server/dlna"
+	"github.com/Terisback/TorrServer/server/log"
+	set "github.com/Terisback/TorrServer/server/settings"
+	"github.com/Terisback/TorrServer/server/torr"
+	"github.com/Terisback/TorrServer/server/torr/state"
+	"github.com/Terisback/TorrServer/server/web/api/utils"
 
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"

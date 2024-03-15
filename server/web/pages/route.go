@@ -4,10 +4,10 @@ import (
 	"github.com/anacrolix/torrent/metainfo"
 	"github.com/gin-gonic/gin"
 
-	"server/settings"
-	"server/torr"
-	"server/web/auth"
-	"server/web/pages/template"
+	"github.com/Terisback/TorrServer/server/settings"
+	"github.com/Terisback/TorrServer/server/torr"
+	"github.com/Terisback/TorrServer/server/web/auth"
+	"github.com/Terisback/TorrServer/server/web/pages/template"
 
 	"golang.org/x/exp/slices"
 )

@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"time"
 
-	"server/torr/utils"
+	"github.com/Terisback/TorrServer/server/torr/utils"
 
-	"server/settings"
-	"server/torr/state"
+	"github.com/Terisback/TorrServer/server/settings"
+	"github.com/Terisback/TorrServer/server/torr/state"
 
 	"github.com/anacrolix/torrent/metainfo"
 )

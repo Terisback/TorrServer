@@ -1,6 +1,6 @@
 package settings
 
-import "server/log"
+import "github.com/Terisback/TorrServer/server/log"
 
 type DBReadCache struct {
 	db        TorrServerDB

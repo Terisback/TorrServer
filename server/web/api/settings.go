@@ -3,15 +3,15 @@ package api
 import (
 	"net/http"
 
-	"server/rutor"
+	"github.com/Terisback/TorrServer/server/rutor"
 
-	"server/dlna"
+	"github.com/Terisback/TorrServer/server/dlna"
 
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
 
-	sets "server/settings"
-	"server/torr"
+	sets "github.com/Terisback/TorrServer/server/settings"
+	"github.com/Terisback/TorrServer/server/torr"
 )
 
 // Action: get, set, def

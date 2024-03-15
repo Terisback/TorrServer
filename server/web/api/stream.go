@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"server/torr"
-	"server/torr/state"
-	utils2 "server/utils"
-	"server/web/api/utils"
+	"github.com/Terisback/TorrServer/server/torr"
+	"github.com/Terisback/TorrServer/server/torr/state"
+	utils2 "github.com/Terisback/TorrServer/server/utils"
+	"github.com/Terisback/TorrServer/server/web/api/utils"
 
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
